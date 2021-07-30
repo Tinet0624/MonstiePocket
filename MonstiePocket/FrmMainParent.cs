@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace MonstiePocket
 {
-    public partial class MainParent : Form
+    public partial class FrmMainParent : Form
     {
-        public MainParent()
+        public FrmMainParent()
         {
             InitializeComponent();
-            frmMonstieGallery monstieGallery = new frmMonstieGallery();
+            FrmMonstieGallery monstieGallery = new FrmMonstieGallery();
             monstieGallery.MdiParent = this;
             if (ActiveMdiChild == null)
             {

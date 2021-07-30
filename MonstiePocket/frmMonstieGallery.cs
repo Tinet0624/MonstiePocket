@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MonstiePocket
 {
-    public partial class frmMonstieGallery : Form
+    public partial class FrmMonstieGallery : Form
     {
-        public frmMonstieGallery()
+        public FrmMonstieGallery()
         {
             InitializeComponent();
         }

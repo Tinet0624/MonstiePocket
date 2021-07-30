@@ -1,7 +1,7 @@
 ﻿
 namespace MonstiePocket
 {
-    partial class MainParent
+    partial class FrmMainParent
     {
         /// <summary>
         /// Required designer variable.

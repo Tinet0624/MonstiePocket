@@ -1,7 +1,7 @@
 ﻿
 namespace MonstiePocket
 {
-    partial class frmMonstieGallery
+    partial class FrmMonstieGallery
     {
         /// <summary>
         /// Required designer variable.
