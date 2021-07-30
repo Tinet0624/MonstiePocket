@@ -46,34 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMonstieGallery.cs">
+    <Compile Include="FrmMonstieGallery.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAddMonstie.cs">
+    <Compile Include="FrmAddMonstie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAddMonstie.Designer.cs">
-      <DependentUpon>frmAddMonstie.cs</DependentUpon>
+    <Compile Include="FrmAddMonstie.Designer.cs">
+      <DependentUpon>FrmAddMonstie.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMonstieGallery.Designer.cs">
-      <DependentUpon>frmMonstieGallery.cs</DependentUpon>
+    <Compile Include="FrmMonstieGallery.Designer.cs">
+      <DependentUpon>FrmMonstieGallery.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainParent.cs">
+    <Compile Include="FrmMainParent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainParent.Designer.cs">
-      <DependentUpon>MainParent.cs</DependentUpon>
+    <Compile Include="FrmMainParent.Designer.cs">
+      <DependentUpon>FrmMainParent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMonstieGallery.resx">
-      <DependentUpon>frmMonstieGallery.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMonstieGallery.resx">
+      <DependentUpon>FrmMonstieGallery.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainParent.resx">
-      <DependentUpon>MainParent.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMainParent.resx">
+      <DependentUpon>FrmMainParent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAddMonstie.resx">
-      <DependentUpon>frmAddMonstie.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAddMonstie.resx">
+      <DependentUpon>FrmAddMonstie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
