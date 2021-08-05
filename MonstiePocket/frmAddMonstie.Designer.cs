@@ -240,9 +240,10 @@ namespace MonstiePocket
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(6, 122);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(14, 13);
+            this.radioButton3.Size = new System.Drawing.Size(56, 17);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Speed";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -250,9 +251,11 @@ namespace MonstiePocket
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(7, 71);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(14, 13);
+            this.radioButton2.Size = new System.Drawing.Size(50, 17);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Tech";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -260,9 +263,10 @@ namespace MonstiePocket
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(6, 19);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(14, 13);
+            this.radioButton1.Size = new System.Drawing.Size(55, 17);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Power";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -293,7 +297,7 @@ namespace MonstiePocket
             this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
             // 
-            // frmAddMonstie
+            // FrmAddMonstie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -321,7 +325,7 @@ namespace MonstiePocket
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "frmAddMonstie";
+            this.Name = "FrmAddMonstie";
             this.Text = "frmAddMonstie";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
