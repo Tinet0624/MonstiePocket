@@ -29,14 +29,30 @@ namespace MonstiePocket
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // frmMonstieGallery
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(71, 37);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // FrmMonstieGallery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmMonstieGallery";
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(428, 433);
+            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmMonstieGallery";
             this.Text = "frmMonstieGallery";
             this.Load += new System.EventHandler(this.frmMonstieGallery_Load);
             this.ResumeLayout(false);
@@ -44,5 +60,7 @@ namespace MonstiePocket
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
     }
 }

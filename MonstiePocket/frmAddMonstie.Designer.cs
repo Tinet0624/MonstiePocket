@@ -228,7 +228,7 @@ namespace MonstiePocket
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(327, 146);
+            this.groupBox1.Location = new System.Drawing.Point(327, 144);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(71, 179);
             this.groupBox1.TabIndex = 27;
@@ -272,13 +272,13 @@ namespace MonstiePocket
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(359, 34);
+            this.button1.Location = new System.Drawing.Point(327, 19);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 37);
+            this.button1.Size = new System.Drawing.Size(71, 37);
             this.button1.TabIndex = 26;
-            this.button1.Text = "+";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
@@ -301,7 +301,7 @@ namespace MonstiePocket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 405);
+            this.ClientSize = new System.Drawing.Size(428, 433);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -325,6 +325,7 @@ namespace MonstiePocket
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmAddMonstie";
             this.Text = "frmAddMonstie";
             this.groupBox1.ResumeLayout(false);
