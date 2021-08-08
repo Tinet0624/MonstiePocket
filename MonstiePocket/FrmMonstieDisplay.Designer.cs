@@ -70,16 +70,16 @@ namespace MonstiePocket
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(371, 29);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 13);
+            this.label15.Size = new System.Drawing.Size(25, 13);
             this.label15.TabIndex = 76;
-            this.label15.Text = "label15";
+            this.label15.Text = "000";
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Location = new System.Drawing.Point(144, 376);
+            this.button2.Location = new System.Drawing.Point(153, 376);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 37);
             this.button2.TabIndex = 75;
@@ -128,7 +128,7 @@ namespace MonstiePocket
             this.groupBox2.Controls.Add(this.radioButton5);
             this.groupBox2.Controls.Add(this.radioButton4);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(210, 257);
+            this.groupBox2.Location = new System.Drawing.Point(226, 257);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(190, 100);
             this.groupBox2.TabIndex = 70;
@@ -308,11 +308,12 @@ namespace MonstiePocket
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(214, 52);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(36, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 13);
+            this.label3.Size = new System.Drawing.Size(26, 17);
             this.label3.TabIndex = 59;
-            this.label3.Text = "Raity";
+            this.label3.Text = "1★";
             // 
             // label1
             // 
