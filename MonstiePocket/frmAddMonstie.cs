@@ -16,5 +16,10 @@ namespace MonstiePocket
         {
             InitializeComponent();
         }
+
+        private void FrmAddMonstie_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
