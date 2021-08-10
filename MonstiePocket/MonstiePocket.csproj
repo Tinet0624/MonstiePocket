@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmMonstieDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonstieDisplay.Designer.cs">
+      <DependentUpon>FrmMonstieDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMonstieGallery.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMonstieDisplay.resx">
+      <DependentUpon>FrmMonstieDisplay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMonstieGallery.resx">
       <DependentUpon>FrmMonstieGallery.cs</DependentUpon>
     </EmbeddedResource>

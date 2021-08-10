@@ -228,7 +228,7 @@ namespace MonstiePocket
             this.groupBox1.Controls.Add(this.rdoTypeSpeed);
             this.groupBox1.Controls.Add(this.rdoTypeTech);
             this.groupBox1.Controls.Add(this.rdoTypePower);
-            this.groupBox1.Location = new System.Drawing.Point(327, 146);
+            this.groupBox1.Location = new System.Drawing.Point(327, 144);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(71, 179);
             this.groupBox1.TabIndex = 27;
@@ -243,6 +243,7 @@ namespace MonstiePocket
             this.rdoTypeSpeed.Size = new System.Drawing.Size(14, 13);
             this.rdoTypeSpeed.TabIndex = 2;
             this.rdoTypeSpeed.TabStop = true;
+            this.rdoTypeSpeed.Text = "Speed";
             this.rdoTypeSpeed.UseVisualStyleBackColor = true;
             // 
             // rdoTypeTech
@@ -250,9 +251,10 @@ namespace MonstiePocket
             this.rdoTypeTech.AutoSize = true;
             this.rdoTypeTech.Location = new System.Drawing.Point(7, 71);
             this.rdoTypeTech.Name = "rdoTypeTech";
-            this.rdoTypeTech.Size = new System.Drawing.Size(14, 13);
+            this.rdoTypeTech.Size = new System.Drawing.Size(50, 17);
             this.rdoTypeTech.TabIndex = 1;
             this.rdoTypeTech.TabStop = true;
+            this.rdoTypeTech.Text = "Tech";
             this.rdoTypeTech.UseVisualStyleBackColor = true;
             // 
             // rdoTypePower
@@ -260,21 +262,22 @@ namespace MonstiePocket
             this.rdoTypePower.AutoSize = true;
             this.rdoTypePower.Location = new System.Drawing.Point(6, 19);
             this.rdoTypePower.Name = "rdoTypePower";
-            this.rdoTypePower.Size = new System.Drawing.Size(14, 13);
+            this.rdoTypePower.Size = new System.Drawing.Size(55, 17);
             this.rdoTypePower.TabIndex = 0;
             this.rdoTypePower.TabStop = true;
+            this.rdoTypePower.Text = "Power";
             this.rdoTypePower.UseVisualStyleBackColor = true;
             // 
             // btnAddMonstieToDb
             // 
             this.btnAddMonstieToDb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnAddMonstieToDb.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddMonstieToDb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddMonstieToDb.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnAddMonstieToDb.Location = new System.Drawing.Point(359, 34);
+            this.btnAddMonstieToDb.Location = new System.Drawing.Point(327, 19);
             this.btnAddMonstieToDb.Name = "btnAddMonstieToDb";
-            this.btnAddMonstieToDb.Size = new System.Drawing.Size(39, 37);
+            this.btnAddMonstieToDb.Size = new System.Drawing.Size(71, 37);
             this.btnAddMonstieToDb.TabIndex = 26;
-            this.btnAddMonstieToDb.Text = "+";
+            this.btnAddMonstieToDb.Text = "Add";
             this.btnAddMonstieToDb.UseVisualStyleBackColor = false;
             // 
             // pbxMonstieEgg
@@ -297,7 +300,7 @@ namespace MonstiePocket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 405);
+            this.ClientSize = new System.Drawing.Size(428, 433);
             this.Controls.Add(this.lblPhotoPicker2);
             this.Controls.Add(this.lblPhotoPicker1);
             this.Controls.Add(this.lblFormTitle);
@@ -321,8 +324,9 @@ namespace MonstiePocket
             this.Controls.Add(this.btnAddMonstieToDb);
             this.Controls.Add(this.pbxMonstieEgg);
             this.Controls.Add(this.pbxMonstieIcon);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmAddMonstie";
-            this.Text = "frmAddMonstie";
+            this.Text = "FrmAddMonstie";
             this.Load += new System.EventHandler(this.FrmAddMonstie_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
