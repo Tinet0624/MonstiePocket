@@ -342,6 +342,7 @@ namespace MonstiePocket
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmAddMonstie";
             this.Text = "FrmAddMonstie";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmAddMonstie_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

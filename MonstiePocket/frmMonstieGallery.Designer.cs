@@ -55,6 +55,7 @@ namespace MonstiePocket
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMonstieGallery";
             this.Text = "frmMonstieGallery";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMonstieGallery_Load);
             this.ResumeLayout(false);
 
