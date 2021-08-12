@@ -43,6 +43,7 @@ namespace MonstiePocket
             this.btnAddMonstie.TabIndex = 27;
             this.btnAddMonstie.Text = "Add";
             this.btnAddMonstie.UseVisualStyleBackColor = false;
+            this.btnAddMonstie.Click += new System.EventHandler(this.btnAddMonstie_Click);
             // 
             // FrmMonstieGallery
             // 

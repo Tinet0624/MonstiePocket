@@ -21,5 +21,16 @@ namespace MonstiePocket
         {
 
         }
+
+        private void btnAddMonstie_Click(object sender, EventArgs e)
+        {
+            FrmAddMonstie addMonstie = new FrmAddMonstie
+            {
+                MdiParent = this.MdiParent,
+                //WindowState = FormWindowState.Maximized
+            };
+            addMonstie.Show();
+            Close();
+        }
     }
 }
