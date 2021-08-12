@@ -55,6 +55,7 @@ namespace MonstiePocket
             this.btnAddMonstieToDb = new System.Windows.Forms.Button();
             this.pbxMonstieEgg = new System.Windows.Forms.PictureBox();
             this.pbxMonstieIcon = new System.Windows.Forms.PictureBox();
+            this.btnBackGallery = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMonstieEgg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxMonstieIcon)).BeginInit();
@@ -240,7 +241,7 @@ namespace MonstiePocket
             this.rdoTypeSpeed.AutoSize = true;
             this.rdoTypeSpeed.Location = new System.Drawing.Point(6, 122);
             this.rdoTypeSpeed.Name = "rdoTypeSpeed";
-            this.rdoTypeSpeed.Size = new System.Drawing.Size(14, 13);
+            this.rdoTypeSpeed.Size = new System.Drawing.Size(56, 17);
             this.rdoTypeSpeed.TabIndex = 2;
             this.rdoTypeSpeed.TabStop = true;
             this.rdoTypeSpeed.Text = "Speed";
@@ -296,11 +297,25 @@ namespace MonstiePocket
             this.pbxMonstieIcon.TabIndex = 24;
             this.pbxMonstieIcon.TabStop = false;
             // 
+            // btnBackGallery
+            // 
+            this.btnBackGallery.BackColor = System.Drawing.Color.Gray;
+            this.btnBackGallery.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackGallery.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnBackGallery.Location = new System.Drawing.Point(237, 19);
+            this.btnBackGallery.Name = "btnBackGallery";
+            this.btnBackGallery.Size = new System.Drawing.Size(72, 37);
+            this.btnBackGallery.TabIndex = 80;
+            this.btnBackGallery.Text = "Back";
+            this.btnBackGallery.UseVisualStyleBackColor = false;
+            this.btnBackGallery.Click += new System.EventHandler(this.btnBackGallery_Click);
+            // 
             // FrmAddMonstie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(428, 433);
+            this.Controls.Add(this.btnBackGallery);
             this.Controls.Add(this.lblPhotoPicker2);
             this.Controls.Add(this.lblPhotoPicker1);
             this.Controls.Add(this.lblFormTitle);
@@ -365,5 +380,6 @@ namespace MonstiePocket
         private System.Windows.Forms.Button btnAddMonstieToDb;
         private System.Windows.Forms.PictureBox pbxMonstieEgg;
         private System.Windows.Forms.PictureBox pbxMonstieIcon;
+        private System.Windows.Forms.Button btnBackGallery;
     }
 }
