@@ -17,11 +17,6 @@ namespace MonstiePocket
             InitializeComponent();
         }
 
-        private void FrmAddMonstie_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBackGallery_Click(object sender, EventArgs e)
         {
             FrmMonstieGallery monstieGallery = new FrmMonstieGallery
