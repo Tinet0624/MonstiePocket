@@ -21,5 +21,16 @@ namespace MonstiePocket
         {
 
         }
+
+        private void btnBackGallery_Click(object sender, EventArgs e)
+        {
+            FrmMonstieGallery monstieGallery = new FrmMonstieGallery
+            {
+                MdiParent = this.MdiParent,
+                //WindowState = FormWindowState.Maximized
+            };
+            monstieGallery.Show();
+            Close();
+        }
     }
 }
