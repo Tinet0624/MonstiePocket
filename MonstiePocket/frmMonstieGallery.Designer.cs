@@ -29,20 +29,20 @@ namespace MonstiePocket
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAddMonstie = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnAddMonstie
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(71, 37);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAddMonstie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnAddMonstie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddMonstie.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnAddMonstie.Location = new System.Drawing.Point(12, 12);
+            this.btnAddMonstie.Name = "btnAddMonstie";
+            this.btnAddMonstie.Size = new System.Drawing.Size(71, 37);
+            this.btnAddMonstie.TabIndex = 27;
+            this.btnAddMonstie.Text = "Add";
+            this.btnAddMonstie.UseVisualStyleBackColor = false;
             // 
             // FrmMonstieGallery
             // 
@@ -50,7 +50,7 @@ namespace MonstiePocket
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(428, 433);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAddMonstie);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMonstieGallery";
             this.Text = "frmMonstieGallery";
@@ -61,6 +61,6 @@ namespace MonstiePocket
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAddMonstie;
     }
 }
