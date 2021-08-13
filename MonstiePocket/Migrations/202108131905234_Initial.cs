@@ -11,13 +11,13 @@ namespace MonstiePocket.Migrations
                 "dbo.Monsties",
                 c => new
                     {
-                        MonstieNumber = c.Short(nullable: false, identity: true),
+                        MonstieNumber = c.Short(nullable: false),
                         Icon = c.String(),
                         Egg = c.String(),
                         Type = c.String(),
                         Name = c.String(),
                         Genus = c.String(),
-                        MonstieRarity = c.Byte(nullable: true),
+                        MonstieRarity = c.Byte(),
                         Habitat = c.String(),
                         RiderAction1 = c.String(),
                         RiderAction2 = c.String(),
