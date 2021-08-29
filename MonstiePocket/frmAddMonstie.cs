@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MonstiePocket
@@ -26,6 +19,34 @@ namespace MonstiePocket
             };
             monstieGallery.Show();
             Close();
+        }
+
+        private void btnAddMonstieToDb_Click(object sender, EventArgs e)
+        {
+            Monstie monster = new Monstie
+            {
+                MonstieNumber = Convert.ToInt16(txtMonstieId.Text),
+                RiderAction1 = cmbRiderAction1.SelectedItem?.ToString(),
+                RiderAction2 = cmbRiderAction2.SelectedItem?.ToString(),
+                Genus = cmbGenus.SelectedItem?.ToString(),
+                Habitat = cmbHabitat.SelectedItem?.ToString(),
+                MonstieRarity = Convert.ToByte(cmbRarity.SelectedItem),
+                Name = txtMonstieName.Text,
+            };
+
+            if (rdoTypePower.Checked)
+            {
+                monster.Status = "Power";
+            }
+            else if (rdoTypeTech.Checked)
+            {
+                monster.Status = "Tech";
+            }
+            else if (rdoTypeSpeed.Checked)
+            {
+                monster.Status = "Speed";
+            }
+            MonstieDB.Add(monster);
         }
     }
 }
