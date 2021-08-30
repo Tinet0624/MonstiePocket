@@ -1,7 +1,8 @@
 # MonstiePocket
 Class Team Project. Monster Hunter Stories 2 Monstie Gallery and tracker.
 
-This project is for CPW 212 Advanced .Net Programming.
+This project is for CPW 212 Advanced .Net Programming. <br>
+[Design Doc](https://app.milanote.com/1M6M8X1mjrUp48/mhs2-class-project?p=5iTuY2XfQfN)
 
 
 # .Net naming convention for this project
